@@ -29,7 +29,9 @@ const Home = () => {
       >
         <Collapse in={showAlert}>
           <Alert
-            variant="filled"
+            // variant="filled"
+            color="info"
+            style={{ boxShadow: "0px 0px 3px grey" }}
             action={
               <IconButton
                 aria-label="close"

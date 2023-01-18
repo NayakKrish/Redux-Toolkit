@@ -46,8 +46,8 @@ const Cart = () => {
       >
         <Collapse in={showAlert}>
           <Alert
-            variant="filled"
             color="warning"
+            style={{ boxShadow: "0px 0px 3px grey" }}
             action={
               <IconButton
                 aria-label="close"
